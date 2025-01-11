@@ -1,6 +1,6 @@
 ## Oficina Módulo Intermediário | Capacitação fullsatack | Avanti Atlântico
 
-- TO DO - Lista de tarefas
+- To Do List - Lista de tarefas
 
 Objetivo: Criar uma lista interativa onde o usuário pode adicionar, marcar como
 concluída e remover tarefas.
@@ -24,4 +24,4 @@ Interface dinâmica e responsiva para todos os dispositivos
 
 ### Deploy
 
-Acesse o projeto: [link para o projeto na web](https://analara714.github.io/to-do/)
+Acesse o projeto: [link para o projeto na web](https://analara714.github.io/lista-de-tarefas/)
