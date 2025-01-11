@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 25px;
+  width: 70%;
+  background: #ffffff;
+}
+
+.header {
+  background: #a5d8ff;
+  border-radius: 15px;
+  width: 100%;
+  font-family: "Lilita One", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 15px;
+  padding: 0 15px;
+  border: 2px solid black;
+}
+
+.task-container {
+  background: #ffec99;
+  border-radius: 15px;
+  width: 100%;
+  padding: 15px;
+  font-family: "Lilita One", serif;
+  font-weight: 400;
+  /* height: 550px; */
+  max-height: fit-content;
+}
+
+.task-container ul {
+  margin-left: -40px;
+}
+
+.btn-add-task {
+  background: #d0bfff;
+  border-radius: 15px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  font-family: "Nunito", serif;
+  gap: 10px;
+}
+
+#insertTask,
+.items-new-task {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.items-new-task {
+  width: 75%;
+  gap: 5px;
+}
+
+#insertTask {
+  margin-top: -50px;
+  justify-content: space-around;
+}
+
+#insertTask :last-child {
+  height: 25px;
+}
+
+#insertTask:last-child :hover {
+  cursor: pointer;
+}
+
+.write-task {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  background: none;
+  padding: 5px;
+  width: 100%;
+}
+
+.write-task:focus {
+  outline: none;
+}
+
+.write-task:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #d0bfff inset;
+}
+
+.organize-tasks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.organize-tasks h3 {
+  margin: 0;
+}
+
+footer {
+  padding: 15px;
+  font-family: "Nunito", serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.link-author {
+  color: #790071;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.task {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #ffd43b;
+  border: 2px solid #000;
+  border-radius: 16px;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-family: "Nunito", serif;
+}
+
+.completed {
+  background: #69db7c;
+}
+
+.task :first-child {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.task :last-child {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.task-completed {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.task span {
+  text-align: left;
+  word-wrap: wrap;
+}
+
+.edit-task {
+  background: #228be6;
+}
+
+.delete-task {
+  background: #fa5252;
+}
+
+.edit-task,
+.delete-task {
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+@media (max-width: 422px) {
+  .scroll-tasks,
+  .completed-task {
+    max-height: 200px;
+    overflow-y: scroll;
+  }
+
+  .task {
+    flex-wrap: nowrap;
+  }
+
+  .mobile-view {
+    height: 1px;
+  }
+
+  .task span {
+    width: 80%;
+  }
+
+  .organize-tasks {
+    margin-top: 0px;
+  }
+
+  .organize-tasks h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .title-completed-list {
+    margin-top: 30px;
+  }
+
+  .write-task {
+    margin-right: 0%;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 765px) {
+  .write-task {
+    margin-right: 20%;
+  }
+}

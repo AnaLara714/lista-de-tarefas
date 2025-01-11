@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO - Capacita Brasil | Avanti</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <h2 class="title">Lista de Tarefas</h2>
+    </div>
+    <div class="task-container">
+      <div class="add-task">
+        <button
+          class="btn-add-task visible"
+          id="addTask"
+          onclick="btnAddTask()"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="20px"
+            viewBox="0 -960 960 960"
+            width="20px"
+            fill="#000"
+          >
+            <path
+              d="M444-444H240v-72h204v-204h72v204h204v72H516v204h-72v-204Z"
+            />
+          </svg>
+          <span>Adicionar tarefa</span>
+        </button>
+        <div class="btn-add-task hidden" id="insertTask">
+          <div class="items-new-task">
+            <svg
+              class="circle-pending"
+              xmlns="http://www.w3.org/2000/svg"
+              height="20px"
+              viewBox="0 -960 960 960"
+              width="20px"
+              fill="#000"
+            >
+              <path
+                d="M480.28-96Q401-96 331-126t-122.5-82.5Q156-261 126-330.96t-30-149.5Q96-560 126-629.5q30-69.5 82.5-122T330.96-834q69.96-30 149.5-30t149.04 30q69.5 30 122 82.5T834-629.28q30 69.73 30 149Q864-401 834-331t-82.5 122.5Q699-156 629.28-126q-69.73 30-149 30Zm-.28-72q130 0 221-91t91-221q0-130-91-221t-221-91q-130 0-221 91t-91 221q0 130 91 221t221 91Zm0-312Z"
+              />
+            </svg>
+            <input
+              type="text"
+              name="task"
+              placeholder="Adicionar tarefa"
+              class="write-task"
+            />
+          </div>
+
+          <div onclick="addTask()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="25px"
+              viewBox="0 -960 960 960"
+              width="20px"
+              fill="#000"
+            >
+              <path
+                d="M444-288h72v-156h156v-72H516v-156h-72v156H288v72h156v156Zm36.28 192Q401-96 331-126t-122.5-82.5Q156-261 126-330.96t-30-149.5Q96-560 126-629.5q30-69.5 82.5-122T330.96-834q69.96-30 149.5-30t149.04 30q69.5 30 122 82.5T834-629.28q30 69.73 30 149Q864-401 834-331t-82.5 122.5Q699-156 629.28-126q-69.73 30-149 30Zm-.28-72q130 0 221-91t91-221q0-130-91-221t-221-91q-130 0-221 91t-91 221q0 130 91 221t221 91Zm0-312Z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <ul class="tasks"></ul>
+      <div class="organize-tasks">
+        <h3>Organize melhor seu dia e viva sem preocupação!</h3>
+      </div>
+      <div>
+        <h3 class="title-completed-list hidden">Concluídas</h3>
+        <ul class="completed-task"></ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="features.js"></script>
+  </body>
+  <footer>
+    © 2025 | Oficina Capacita Brasil - Atlântico Avanti | Desenvolvido por
+    <a
+      class="link-author"
+      target="_blank"
+      href="https://www.github.com/AnaLara714"
+      >Ana Lara</a
+    >
+  </footer>
+</html>
