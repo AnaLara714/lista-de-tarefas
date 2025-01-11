@@ -62,6 +62,7 @@ function renderTask() {
 function btnAddTask() {
   compAddTask.classList.add("hidden");
   compInsertTask.classList.remove("hidden");
+  taskInput.focus();
 }
 
 function addTask() {
