@@ -19,3 +19,5 @@ concluída e remover tarefas.
 - JS;
 
 Interface dinâmica e responsiva para todos os dispositivos
+
+- Futuramente adicionar o LocalStore para que a lista de tarefa seja salva no navegador
