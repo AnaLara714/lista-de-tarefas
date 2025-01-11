@@ -32,9 +32,10 @@ body {
   font-family: "Lilita One", serif;
   font-weight: 400;
   /* height: 550px; */
-  max-height: fit-content;
+  /* max-height: fit-content; */
+  height: max-content;
+  /* height: 80vh; */
 }
-
 .task-container ul {
   margin-left: -40px;
 }
