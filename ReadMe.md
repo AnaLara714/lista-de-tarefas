@@ -5,6 +5,8 @@
 Objetivo: Criar uma lista interativa onde o usuário pode adicionar, marcar como
 concluída e remover tarefas.
 
+Interface dinâmica e responsiva para todos os dispositivos
+
 ### Features
 
 - Criar tarefa
@@ -12,12 +14,14 @@ concluída e remover tarefas.
 - Marcar como concluída
 - Deletar terefa
 
+- Futuramente: adicionar o LocalStore para que a lista de tarefa seja salva no navegador
+
 ### Tecnologias
 
 - HTML;
 - CSS;
 - JS;
 
-Interface dinâmica e responsiva para todos os dispositivos
+### Deploy
 
-- Futuramente adicionar o LocalStore para que a lista de tarefa seja salva no navegador
+Acesse o projeto: [text](https://analara714.github.io/to-do/)
