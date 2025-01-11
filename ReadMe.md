@@ -24,4 +24,4 @@ Interface dinâmica e responsiva para todos os dispositivos
 
 ### Deploy
 
-Acesse o projeto: [text](https://analara714.github.io/to-do/)
+Acesse o projeto: [link para o projeto na web](https://analara714.github.io/to-do/)
